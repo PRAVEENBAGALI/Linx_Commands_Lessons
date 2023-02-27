@@ -11,3 +11,6 @@ cat -n ADMORE.log
 if in the file we many blank lines and we need to show the content by sqeezing the content then use
 cat -n ADMORE.log
 
+cat commands
+
+
