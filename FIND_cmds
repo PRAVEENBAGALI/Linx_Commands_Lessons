@@ -1,0 +1,33 @@
+find commands are used to find files 
+top
+sar
+df
+
+
+Monitor the health of the several machines (eg:10000 VMs)
+
+ps -ef | grep amazon -F " " '{print $2}
+
+curl command 
+this used to get all errors from a central repo where all logs are written
+so fetch only ERROR  so use this command
+
+curl website | grep ERROR
+
+wget command
+this is used to download the log file from a location 
+wget webiste along with log file
+
+sudo su -
+to get to root user in a linux machines
+to come out of root user use 
+~#
+
+switch to user can be done using command
+su pyb
+
+to search file in directory
+find / -name ADMORE.log
+
+to search a file which in root directoty
+sudo find / -name ADMORE.log
